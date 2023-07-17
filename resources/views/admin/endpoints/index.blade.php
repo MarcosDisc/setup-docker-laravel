@@ -31,7 +31,7 @@
                                     <td class="px-6 py-3">{{ $endpoint->frequency }}</td>
                                     <td class="px-6 py-3">{{ $endpoint->next_check }}</td>
                                     <td class="px-6 py-3">
-                                        <a href="{{ route('endpoints.edit', [$site->id, $enpoint->id]) }}">Editar</a>
+                                        <a href="{{ route('endpoints.edit', [$site->id, $endpoint->id]) }}">Editar</a>
                                         <a href="{{ route('endpoints.index', $site->id) }}">Endpoints</a>
                                     </td>
                                 </tr>
